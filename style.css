@@ -1,0 +1,54 @@
+.popup-overlay-homepage {
+    background: #000000b8;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  .popup-overlay-homepage .custom-popup #popup1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background: #fff;
+    margin: auto;
+    height: 175px;
+    width: 600px;
+    bottom: 0;
+  }
+  
+  .custom-popup #popup1 h2 {
+    display: inline-block;
+    padding-left: 25px;
+    font-size: 30px;
+    color: #fc0000;
+  }
+  .custom-popup #popup1 p {
+    padding-left: 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #160909;
+  }
+  
+  .custom-popup #popup1 button {
+    padding: 9px 20px;
+    margin-top: 20px;
+    background: #fff;
+    font-size: 25px;
+    border: 0;
+    color: red;
+    transition: .3 ease-in-out;
+  }
+  .custom-popup #popup1 button:hover{
+  color:#000;
+  }
+  .page-wrap--cookie-permission,#cookie-consent.off-canvas{
+    z-index: 999999;
+  }
+  
