@@ -14,7 +14,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
       setTimeout(()=> {
         localStorage.removeItem('popupDisplayed');
-        window.onload();
       }, 10000);
     });
   }else{
